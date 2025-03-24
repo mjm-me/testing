@@ -12,9 +12,6 @@
   "author": "MJesús Martín",
   "license": "ISC",
   "description": "Nuevo proyecto para testing",
-  "prettier": {
-    "singleQuote": true
-  },
   "devDependencies": {
     "@eslint/js": "^9.23.0",
     "@types/node": "^22.13.13",
@@ -25,5 +22,7 @@
     "typescript-eslint": "^8.27.0",
     "vitest": "^3.0.9"
   },
-  "dependencies": {}
+  "prettier": {
+    "singleQuote": true
+  }
 }
