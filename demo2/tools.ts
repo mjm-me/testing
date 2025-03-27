@@ -1,11 +1,11 @@
 // Módulo
 
 // Crea una función que cuente la cantidad de palabras en una frase.
+
 export function countWords(sentence: string) {
-  if (typeof sentence !== 'string') return undefined;
   if (sentence === '') return 0;
   const words = sentence.split(' ');
-  return words.filter((word) => word !== '').len;
+  return words.filter((word) => word !== '').length;
 }
 
 // Crea una función que genere una
